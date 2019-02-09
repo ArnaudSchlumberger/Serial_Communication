@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#Code mainly written by Maxime T ;)
 from threading import Thread
 from queue import Queue
 from time import sleep
@@ -28,7 +28,7 @@ def threadrecoie(threadname, q):
         read_serial = int.from_bytes(read_serial,byteorder='big')
         print('recoie',read_serial)
         q.put(read_serial)
-        
+
 
 
 varshare = Queue()
