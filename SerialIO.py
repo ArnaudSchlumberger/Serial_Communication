@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-#Code mainly written by Maxime T ;)
+#Code mainly written by Maxime T. aka amaisjeg ;)
+#https://github.com/omaisjeg
 from threading import Thread
 from queue import Queue
 from time import sleep
